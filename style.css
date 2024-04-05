@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#postcard {
+    width: 35vw;
+}
+
+#poster {
+    object-fit: cover;
+}
+
