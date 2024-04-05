@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://use.typekit.net/boc4agt.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
         <img id="poster" src="images/great-pretender-razbliuto-poster.avif" alt="Great Pretender razbliuto poster">
         <div class="overlay">
             <img id="logo" src="images/logo.png" alt="Great Pretender end credits logo">
-            Pretenders
+            <p>The Pretenders</p>
         </div>
     </div>
 
@@ -25,7 +26,26 @@
         </header>
 
         <div id="inputs">
+            <p>Let's do this!</p>
 
+            <div class="flex-container">
+                <section>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first_name" id="first-name">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                    <label for="first-password">PASSWORD</label>
+                    <input type="password" name="password" id="first-password">
+                </section>
+                <section>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last-name">
+                    <label for="telephone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone_number" id="telephone-number">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirmed_password" id="confirm-password">
+                </section>
+            </div>
         </div>
 
         <footer id="submit-section">
