@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overscroll-behavior: none;
 }
 
 body {
@@ -52,7 +53,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 2%;
     background-color: #fbfbfb;
 }
 
@@ -117,4 +118,26 @@ form > #submit-section {
 .right > input:focus {
     border: 1px solid #42c3ff;
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+
+#submit-section > button {
+    padding: 1.5vh 4vw;
+    border-radius: 10px;
+    background-color: #008bcc;
+    color: #ffffff;
+    border: 2px solid #00618e;
+    font-family: var(--information-font);
+    margin: 5px 0 20px 10px;
+}
+
+#submit-section > button:active {
+    background-color: #00618e;
+}
+
+#submit-section > .have-account {
+    margin: 0 10px;
+}
+
+#submit-section a {
+    color: #008bcc;
 }
